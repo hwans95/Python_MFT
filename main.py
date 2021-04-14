@@ -1,6 +1,6 @@
 from header import flags_header, dir_check, flags, name_type, file_open, big_to_little, timestamp_change, filename_change, creat_csv, ads_check
 from attr import std, fna
-from sa import sa_
+
 
 def mft_parsing(data,num):
     mft_signature = bytes(b'FILE')
